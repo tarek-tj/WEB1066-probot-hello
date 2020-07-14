@@ -17,6 +17,7 @@ script:
 
 deploy:
   provider: heroku
+  api_key: 892a348c-3ea5-4d2c-a3b5-cbc3ad2591ab
   on: heroku_production
   app: hello-probot-tarektj
 
