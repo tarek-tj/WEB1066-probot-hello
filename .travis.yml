@@ -1,3 +1,7 @@
+
+language: node_js
+node_js:
+  - "8.3"
 sudo: require
 services:
   - docker
@@ -13,5 +17,9 @@ script:
 
 deploy:
   provider: heroku
+<<<<<<< HEAD
   on: heroku_production
   app: hello-probot-tarektj
+=======
+
+>>>>>>> dbf32ceb3f66ad449a326504ee6f8e4e0337712d
